@@ -15,22 +15,43 @@ struct Stack {
 void initStack(Stack* stack);
 void push(Stack* stack, char operator);
 char pop(Stack* stack);
-void calculateExpression(Stack* stack, char operator);
 
 int main(void) {
     Stack stack;
     initStack(&stack);
+    int a;
+    int b;
     int c;
+    int index;
+    index = 0;
     while ((c  = getchar()) != EOF) {
         if (isdigit(c)) {
-            push(&stack, c);
+            push(&stack, c - '0');
         }
         else if (c == '+' || c == '-' || c == '*' || c == '/') {
+            switch(c) {
+                case '+':
+                    a = pop(&stack);
+                    b = pop(&stack);
+                    push(&stack, a + b);
+                    break;
+                case '-':
+                    break;
+                case '*':
+                    break;
+                case '/':
+                    break;
+            }
         }
         else if (c == '\n') {
+            if (stack.top == -1) {
+                printf("Stack is empty.");
+                return -1;
+            }
         }
+        printf("line %d %d\n", index, (int) stack.top);
+        index++;
     }
-
     return 0;
 }
 
@@ -66,10 +87,4 @@ char peek(Stack *stack) {
         return -1;
     }
     return stack->data[stack->top];
-}
-
-
-// Perform calculation based on operator
-void calculateExpression(Stack* stack, char operator) {
-    
 }
