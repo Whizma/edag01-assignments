@@ -25,6 +25,9 @@ int main(void) {
     int index;
     index = 0;
     while ((c  = getchar()) != EOF) {
+        if (c == ' ') {
+            continue;
+        }
         if (isdigit(c)) {
             push(&stack, c - '0');
         }
@@ -36,20 +39,36 @@ int main(void) {
                     push(&stack, a + b);
                     break;
                 case '-':
+                    a = pop(&stack);
+                    b = pop(&stack);
+                    push(&stack, b - a);
                     break;
                 case '*':
+                    a = pop(&stack);
+                    b = pop(&stack);
+                    push(&stack, a * b);
                     break;
                 case '/':
+                    a = pop(&stack);
+                    b = pop(&stack);
+                    if (a != 0) {
+                        push(&stack, b / a);
+                    }
+                    else {
+                        printf("%s", "Division med noll");
+                    }
                     break;
             }
         }
         else if (c == '\n') {
             if (stack.top == -1) {
-                printf("Stack is empty.");
-                return -1;
+                printf("%s\n", "Stack is empty.");
             }
-        }
-        printf("line %d %d\n", index, (int) stack.top);
+        } else {
+            printf("%c", c);
+            printf("%s\n", "något skumt hände");
+        } 
+        printf("line: %d %d\n", index, (int) stack.top);
         index++;
     }
     return 0;
