@@ -1,116 +1,160 @@
-line: 0 0
-line: 1 1
-line: 2 0
-line: 3 0
-line: 4 1
-line: 5 2
-line: 6 1
-line: 7 1
-line: 8 2
-line: 9 3
-line: 10 4
-line: 11 5
-line: 12 6
-line: 13 7
-line: 14 8
-line: 15 7
-line: 16 8
-line: 17 9
-line: 18 8
-line: 19 8
-line: 20 9
-Stack is fullline: 21 9
-Stack is fullline: 22 9
-Stack is fullline: 23 9
-line: 24 8
-line: 25 7
-line: 26 6
-line: 27 6
-line: 28 7
-line: 29 8
-line: 30 9
-line: 31 8
-line: 32 8
-line: 33 9
-Stack is fullline: 34 9
-Stack is fullline: 35 9
-Stack is fullline: 36 9
-Stack is fullline: 37 9
-line: 38 8
-line: 39 9
-Stack is fullline: 40 9
-Stack is fullline: 41 9
-line: 42 8
-line: 43 7
-line: 44 8
-line: 45 9
-Stack is fullline: 46 9
-Stack is fullline: 47 9
-Stack is fullline: 48 9
-line: 49 8
-line: 50 9
-Stack is fullline: 51 9
-Stack is fullline: 52 9
-line: 53 8
-line: 54 9
-line: 55 8
-line: 56 7
-line: 57 6
-line: 58 6
-line: 59 7
-line: 60 8
-line: 61 9
-Stack is fullline: 62 9
-Stack is fullline: 63 9
-Stack is fullline: 64 9
-Stack is fullline: 65 9
-Stack is fullline: 66 9
-Stack is fullline: 67 9
-Stack is fullline: 68 9
-Stack is fullline: 69 9
-line: 70 8
-line: 71 7
-line: 72 6
-line: 73 5
-line: 74 4
-line: 75 3
-line: 76 2
-line: 77 1
-line: 78 0
-line: 79 0
-line: 80 1
-line: 81 2
-line: 82 2
-line: 83 2
-line: 84 3
-line: 85 4
-Division med nollline: 86 2
-line: 87 2
-line: 88 3
-line: 89 4
-line: 90 5
-line: 91 6
-line: 92 7
-line: 93 8
-line: 94 9
-Stack is fullline: 95 9
-Stack is fullline: 96 9
-Stack is fullline: 97 9
-Stack is fullline: 98 9
-line: 99 8
-line: 100 7
-line: 101 6
-line: 102 5
-line: 103 4
-line: 104 3
-line: 105 2
-line: 106 1
-line: 107 0
-Stack is emptyline: 108 0
-line: 109 0
-line: 110 1
-line: 111 0
-line: 112 0
-!något skumt hände
-line: 113 0
-line: 114 0
+Stack is empty. i peek 
+peek innan vi pushar resultat till stacken -1
+res innan vi pushar resultat till stacken 5
+peek efter vi pushat resultatet till stacken 5
+res innan vi pushar resultat till stacken 5
+line 0 : 5
+Stack is empty. i peek 
+peek innan vi pushar resultat till stacken -1
+res innan vi pushar resultat till stacken -1
+peek efter vi pushat resultatet till stacken 255
+res innan vi pushar resultat till stacken -1
+line 1 : 255
+Stack is empty. i peek 
+peek innan vi pushar resultat till stacken -1
+res innan vi pushar resultat till stacken 672
+peek efter vi pushat resultatet till stacken 160
+res innan vi pushar resultat till stacken 672
+Stack is empty. i peek 
+peek innan vi pushar resultat till stacken -1
+res innan vi pushar resultat till stacken 372
+peek efter vi pushat resultatet till stacken 116
+res innan vi pushar resultat till stacken 372
+line 2 : 116
+peek innan vi pushar resultat till stacken 8
+res innan vi pushar resultat till stacken 43
+peek efter vi pushat resultatet till stacken 43
+res innan vi pushar resultat till stacken 43
+line 3 : 43
+peek innan vi pushar resultat till stacken 8
+res innan vi pushar resultat till stacken 112
+peek efter vi pushat resultatet till stacken 112
+res innan vi pushar resultat till stacken 112
+peek innan vi pushar resultat till stacken 112
+res innan vi pushar resultat till stacken 191
+peek efter vi pushat resultatet till stacken 191
+res innan vi pushar resultat till stacken 191
+peek innan vi pushar resultat till stacken 8
+res innan vi pushar resultat till stacken 303
+peek efter vi pushat resultatet till stacken 47
+res innan vi pushar resultat till stacken 303
+peek innan vi pushar resultat till stacken 47
+res innan vi pushar resultat till stacken 47580
+peek efter vi pushat resultatet till stacken 220
+res innan vi pushar resultat till stacken 47580
+peek innan vi pushar resultat till stacken 220
+res innan vi pushar resultat till stacken 1488
+peek efter vi pushat resultatet till stacken 208
+res innan vi pushar resultat till stacken 1488
+peek innan vi pushar resultat till stacken 220
+res innan vi pushar resultat till stacken 213
+peek efter vi pushat resultatet till stacken 213
+res innan vi pushar resultat till stacken 213
+peek innan vi pushar resultat till stacken 47
+res innan vi pushar resultat till stacken 433
+peek efter vi pushat resultatet till stacken 177
+res innan vi pushar resultat till stacken 433
+peek innan vi pushar resultat till stacken 8
+res innan vi pushar resultat till stacken -130
+peek efter vi pushat resultatet till stacken 126
+res innan vi pushar resultat till stacken -130
+line 4 : 126
+Stack is full. i push 
+Stack is full. i push 
+Stack is full. i push 
+peek innan vi pushar resultat till stacken 5
+res innan vi pushar resultat till stacken 13
+peek efter vi pushat resultatet till stacken 13
+res innan vi pushar resultat till stacken 13
+peek innan vi pushar resultat till stacken 4
+res innan vi pushar resultat till stacken 18
+peek efter vi pushat resultatet till stacken 18
+res innan vi pushar resultat till stacken 18
+peek innan vi pushar resultat till stacken 3
+res innan vi pushar resultat till stacken 22
+peek efter vi pushat resultatet till stacken 22
+res innan vi pushar resultat till stacken 22
+peek innan vi pushar resultat till stacken 2
+res innan vi pushar resultat till stacken 25
+peek efter vi pushat resultatet till stacken 25
+res innan vi pushar resultat till stacken 25
+peek innan vi pushar resultat till stacken 1
+res innan vi pushar resultat till stacken 27
+peek efter vi pushat resultatet till stacken 27
+res innan vi pushar resultat till stacken 27
+peek innan vi pushar resultat till stacken 8
+res innan vi pushar resultat till stacken 28
+peek efter vi pushat resultatet till stacken 28
+res innan vi pushar resultat till stacken 28
+peek innan vi pushar resultat till stacken 7
+res innan vi pushar resultat till stacken 36
+peek efter vi pushat resultatet till stacken 36
+res innan vi pushar resultat till stacken 36
+peek innan vi pushar resultat till stacken 6
+res innan vi pushar resultat till stacken 43
+peek efter vi pushat resultatet till stacken 43
+res innan vi pushar resultat till stacken 43
+Stack is empty. i peek 
+peek innan vi pushar resultat till stacken -1
+res innan vi pushar resultat till stacken 49
+peek efter vi pushat resultatet till stacken 49
+res innan vi pushar resultat till stacken 49
+line 5 : 49
+Division med noll 
+line 6 : 1
+Stack is full. i push 
+peek innan vi pushar resultat till stacken 4
+res innan vi pushar resultat till stacken 11
+peek efter vi pushat resultatet till stacken 11
+res innan vi pushar resultat till stacken 11
+peek innan vi pushar resultat till stacken 3
+res innan vi pushar resultat till stacken 15
+peek efter vi pushat resultatet till stacken 15
+res innan vi pushar resultat till stacken 15
+peek innan vi pushar resultat till stacken 2
+res innan vi pushar resultat till stacken 18
+peek efter vi pushat resultatet till stacken 18
+res innan vi pushar resultat till stacken 18
+peek innan vi pushar resultat till stacken 1
+res innan vi pushar resultat till stacken 20
+peek efter vi pushat resultatet till stacken 20
+res innan vi pushar resultat till stacken 20
+peek innan vi pushar resultat till stacken 4
+res innan vi pushar resultat till stacken 21
+peek efter vi pushat resultatet till stacken 21
+res innan vi pushar resultat till stacken 21
+peek innan vi pushar resultat till stacken 3
+res innan vi pushar resultat till stacken 25
+peek efter vi pushat resultatet till stacken 25
+res innan vi pushar resultat till stacken 25
+peek innan vi pushar resultat till stacken 2
+res innan vi pushar resultat till stacken 28
+peek efter vi pushat resultatet till stacken 28
+res innan vi pushar resultat till stacken 28
+peek innan vi pushar resultat till stacken 1
+res innan vi pushar resultat till stacken 30
+peek efter vi pushat resultatet till stacken 30
+res innan vi pushar resultat till stacken 30
+Stack is empty. i peek 
+peek innan vi pushar resultat till stacken -1
+res innan vi pushar resultat till stacken 31
+peek efter vi pushat resultatet till stacken 31
+res innan vi pushar resultat till stacken 31
+Stack is empty. i pop 
+Stack is empty. i peek 
+peek innan vi pushar resultat till stacken -1
+res innan vi pushar resultat till stacken 30
+peek efter vi pushat resultatet till stacken 30
+res innan vi pushar resultat till stacken 30
+line 7 : 30
+Stack is empty. i pop 
+Stack is empty. i peek 
+peek innan vi pushar resultat till stacken -1
+res innan vi pushar resultat till stacken 0
+peek efter vi pushat resultatet till stacken 0
+res innan vi pushar resultat till stacken 0
+line 8 : 0
+något skumt hände
+Stack is empty. 
+Stack is empty. i pop 
+line 9 : -1
