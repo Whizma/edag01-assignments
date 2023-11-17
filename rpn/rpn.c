@@ -28,17 +28,18 @@ int main(void) {
         if (c == ' ') {
             continue;
         }
-        if (isdigit(c)) {
+        else if (isdigit(c)) {
             int current = c - '0';
-            while ((ch = getchar()) != ' ') {
+            while ((ch = getchar()) != ' ' && isdigit(ch)) {
                 current = current * 10 + (ch - '0');
             }
-            printf("%s %d\n", "vid push av current",stack.data[0]);
+            printf("%c\n", c);
             push(&stack, current);
         }
         else if (c == '+' || c == '-' || c == '*' || c == '/') {
                 a = pop(&stack);
                 b = pop(&stack);
+                printf("%c\n", c);
                 int res;
             switch(c) {
                 case '+':
@@ -59,9 +60,7 @@ int main(void) {
                         continue;
                     }
                     break;
-            }for (int i = 0; i < N; i++) {
-                printf("%s %d\n", "vid push av res", stack.data[i]);
-            }
+        }
             push(&stack, res);
         }
         else if (c == '\n') {
@@ -80,6 +79,9 @@ int main(void) {
 // Initialize stack
 void initStack(Stack* stack) {
     stack->top = -1;
+     for (int i = 0; i < N; i++) {
+        stack->data[i] = 0; // Initialize all elements to zero
+    }
 }
 
 // Push value onto stack

@@ -1,392 +1,103 @@
-vid push av current 0
-vid push av current 2
-vid push av res 2
-vid push av res 3
-vid push av res -1195115008
-vid push av res 32759
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
+2
+3
++
 line 0: 5
-vid push av current 5
-vid push av current 4
-vid push av res 4
-vid push av res 5
-vid push av res -1195115008
-vid push av res 32759
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
+4
+5
+-
 line 1: -1
-vid push av current -1
-vid push av current 124
-vid push av res 124
-vid push av res 1000
-vid push av res -1195115008
-vid push av res 32759
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av current 124000
-vid push av res 124000
-vid push av res 36
-vid push av res -1195115008
-vid push av res 32759
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
+1
+1
+*
+3
++
 line 2: 124036
-vid push av current 124036
-vid push av current 6
-vid push av current 6
-vid push av current 6
-vid push av current 6
-vid push av res 6
-vid push av res 7
-vid push av res 8
-vid push av res 8343260
-vid push av res 4
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-line 3: 2085815
-vid push av current 6
-vid push av current 2
-vid push av res 2
-vid push av res 1000
-vid push av res 8
-vid push av res 2085815
-vid push av res 4
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av current 2000
-vid push av current 2000
-vid push av res 2000
-vid push av res 10
-vid push av res 5
-vid push av res 2085815
-vid push av res 4
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 2000
-vid push av res 15
-vid push av res 5
-vid push av res 2085815
-vid push av res 4
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av current 2015
-vid push av current 2015
-vid push av res 2015
-vid push av res 19
-vid push av res 100
-vid push av res 2085815
-vid push av res 4
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av current 2015
-vid push av current 2015
-vid push av res 2015
-vid push av res 1900
-vid push av res 8
-vid push av res 10
-vid push av res 4
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av current 2015
-vid push av res 2015
-vid push av res 1900
-vid push av res 80
-vid push av res 5
-vid push av res 4
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 2015
-vid push av res 1900
-vid push av res 85
-vid push av res 5
-vid push av res 4
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 2015
-vid push av res 1985
-vid push av res 85
-vid push av res 5
-vid push av res 4
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-vid push av res 0
-line 4: 30
-vid push av current 30
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 5
-vid push av res 6
-vid push av res 7
-vid push av res 8
-vid push av res 9
-vid push av res 10
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 5
-vid push av res 6
-vid push av res 7
-vid push av res 8
-vid push av res 19
-vid push av res 10
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 5
-vid push av res 6
-vid push av res 7
-vid push av res 27
-vid push av res 19
-vid push av res 10
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 5
-vid push av res 6
-vid push av res 34
-vid push av res 27
-vid push av res 19
-vid push av res 10
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 5
-vid push av res 40
-vid push av res 34
-vid push av res 27
-vid push av res 19
-vid push av res 10
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 45
-vid push av res 40
-vid push av res 34
-vid push av res 27
-vid push av res 19
-vid push av res 10
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 49
-vid push av res 45
-vid push av res 40
-vid push av res 34
-vid push av res 27
-vid push av res 19
-vid push av res 10
-vid push av res 1
-vid push av res 2
-vid push av res 52
-vid push av res 49
-vid push av res 45
-vid push av res 40
-vid push av res 34
-vid push av res 27
-vid push av res 19
-vid push av res 10
-vid push av res 1
-vid push av res 54
-vid push av res 52
-vid push av res 49
-vid push av res 45
-vid push av res 40
-vid push av res 34
-vid push av res 27
-vid push av res 19
-vid push av res 10
-line 5: 55
-vid push av current 55
-vid push av current 1
-vid push av current 1
+6
+7
+8
+9
++
+-
+line 3: -10
+6
+4
+/
+line 4: 15
+2
+1
+*
+1
+5
++
++
+1
+1
+*
+8
+1
+*
+5
++
++
+-
+line 5: 30
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
++
++
++
++
++
++
++
++
++
+line 6: 55
+1
+2
+line 7: 2
+1
+0
+/
 Division med noll 
-line 6: 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
-vid push av current 1
+Stack is empty. i pop 
+line 8: -1
+1
+2
+3
+4
+1
+2
+3
+4
+5
+6
+7
 Stack is full. i push 
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 5
-vid push av res 6
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 11
-vid push av res 6
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 15
-vid push av res 11
-vid push av res 6
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 1
-vid push av res 2
-vid push av res 18
-vid push av res 15
-vid push av res 11
-vid push av res 6
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 1
-vid push av res 20
-vid push av res 18
-vid push av res 15
-vid push av res 11
-vid push av res 6
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 4
-vid push av res 21
-vid push av res 20
-vid push av res 18
-vid push av res 15
-vid push av res 11
-vid push av res 6
-vid push av res 1
-vid push av res 2
-vid push av res 3
-vid push av res 25
-vid push av res 21
-vid push av res 20
-vid push av res 18
-vid push av res 15
-vid push av res 11
-vid push av res 6
-vid push av res 1
-vid push av res 2
-vid push av res 28
-vid push av res 25
-vid push av res 21
-vid push av res 20
-vid push av res 18
-vid push av res 15
-vid push av res 11
-vid push av res 6
-vid push av res 1
-vid push av res 30
-vid push av res 28
-vid push av res 25
-vid push av res 21
-vid push av res 20
-vid push av res 18
-vid push av res 15
-vid push av res 11
-vid push av res 6
++
++
++
++
++
++
++
++
++
 Stack is empty. i pop 
-vid push av res 31
-vid push av res 30
-vid push av res 28
-vid push av res 25
-vid push av res 21
-vid push av res 20
-vid push av res 18
-vid push av res 15
-vid push av res 11
-vid push av res 6
-line 7: 30
-vid push av current 30
++
+line 9: 30
+1
 Stack is empty. i pop 
-vid push av res 1
-vid push av res 30
-vid push av res 28
-vid push av res 25
-vid push av res 21
-vid push av res 20
-vid push av res 18
-vid push av res 15
-vid push av res 11
-vid push av res 6
-line 8: 0
++
+line 10: 0
 något skumt hände
 Stack is empty. i pop 
-line 9: -1
+line 11: -1
