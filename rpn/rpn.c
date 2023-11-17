@@ -13,7 +13,7 @@ struct Stack {
 
 // Function prototypes
 void initStack(Stack* stack);
-void push(Stack* stack, char operator);
+void push(Stack* stack, int value);
 int pop(Stack* stack);
 int peek(Stack* stack);
 
@@ -21,11 +21,7 @@ int main(void) {
     Stack stack;
     initStack(&stack);
 
-    int a;
-    int b;
-    int c;
-    int line;
-    int ch;
+    int a, b, c, line, ch;
     line = 0;
 
     while ((c  = getchar()) != EOF) {
@@ -33,11 +29,12 @@ int main(void) {
             continue;
         }
         if (isdigit(c)) {
-            int current = c;
+            int current = c - '0';
             while ((ch = getchar()) != ' ') {
                 current = current * 10 + (ch - '0');
             }
-            push(&stack, current - '0');
+            printf("%s %d\n", "vid push av current",stack.data[0]);
+            push(&stack, current);
         }
         else if (c == '+' || c == '-' || c == '*' || c == '/') {
                 a = pop(&stack);
@@ -62,18 +59,17 @@ int main(void) {
                         continue;
                     }
                     break;
+            }for (int i = 0; i < N; i++) {
+                printf("%s %d\n", "vid push av res", stack.data[i]);
             }
-            printf("%s %d\n", "peek innan vi pushar resultat till stacken", peek(&stack));
-            printf("%s %d\n", "res innan vi pushar resultat till stacken", res);
             push(&stack, res);
-            printf("%s %d\n", "peek efter vi pushat resultatet till stacken", peek(&stack));
         }
         else if (c == '\n') {
-            if (stack.top == -1) {
-                printf("%s\n", "Stack is empty. ");
-            }
-            printf("line %d %s %d\n", line, ":", pop(&stack));
+            printf("line %d%s %d\n", line, ":", pop(&stack));
             line++;
+            while (stack.top != -1) {
+                pop(&stack);
+            }
         } else {
             printf("%s\n", "något skumt hände");
         }
@@ -87,13 +83,13 @@ void initStack(Stack* stack) {
 }
 
 // Push value onto stack
-void push(Stack* stack, char operator) {
+void push(Stack* stack, int value) {
     if (stack->top == N - 1) {
         printf("%s\n", "Stack is full. i push ");
         return;
     }
     stack->top++;
-    stack->data[stack->top] = operator;
+    stack->data[stack->top] = value;
 }
 
 // Pop value from stack

@@ -1,160 +1,392 @@
-Stack is empty. i peek 
-peek innan vi pushar resultat till stacken -1
-res innan vi pushar resultat till stacken 5
-peek efter vi pushat resultatet till stacken 5
-res innan vi pushar resultat till stacken 5
-line 0 : 5
-Stack is empty. i peek 
-peek innan vi pushar resultat till stacken -1
-res innan vi pushar resultat till stacken -1
-peek efter vi pushat resultatet till stacken 255
-res innan vi pushar resultat till stacken -1
-line 1 : 255
-Stack is empty. i peek 
-peek innan vi pushar resultat till stacken -1
-res innan vi pushar resultat till stacken 672
-peek efter vi pushat resultatet till stacken 160
-res innan vi pushar resultat till stacken 672
-Stack is empty. i peek 
-peek innan vi pushar resultat till stacken -1
-res innan vi pushar resultat till stacken 372
-peek efter vi pushat resultatet till stacken 116
-res innan vi pushar resultat till stacken 372
-line 2 : 116
-peek innan vi pushar resultat till stacken 8
-res innan vi pushar resultat till stacken 43
-peek efter vi pushat resultatet till stacken 43
-res innan vi pushar resultat till stacken 43
-line 3 : 43
-peek innan vi pushar resultat till stacken 8
-res innan vi pushar resultat till stacken 112
-peek efter vi pushat resultatet till stacken 112
-res innan vi pushar resultat till stacken 112
-peek innan vi pushar resultat till stacken 112
-res innan vi pushar resultat till stacken 191
-peek efter vi pushat resultatet till stacken 191
-res innan vi pushar resultat till stacken 191
-peek innan vi pushar resultat till stacken 8
-res innan vi pushar resultat till stacken 303
-peek efter vi pushat resultatet till stacken 47
-res innan vi pushar resultat till stacken 303
-peek innan vi pushar resultat till stacken 47
-res innan vi pushar resultat till stacken 47580
-peek efter vi pushat resultatet till stacken 220
-res innan vi pushar resultat till stacken 47580
-peek innan vi pushar resultat till stacken 220
-res innan vi pushar resultat till stacken 1488
-peek efter vi pushat resultatet till stacken 208
-res innan vi pushar resultat till stacken 1488
-peek innan vi pushar resultat till stacken 220
-res innan vi pushar resultat till stacken 213
-peek efter vi pushat resultatet till stacken 213
-res innan vi pushar resultat till stacken 213
-peek innan vi pushar resultat till stacken 47
-res innan vi pushar resultat till stacken 433
-peek efter vi pushat resultatet till stacken 177
-res innan vi pushar resultat till stacken 433
-peek innan vi pushar resultat till stacken 8
-res innan vi pushar resultat till stacken -130
-peek efter vi pushat resultatet till stacken 126
-res innan vi pushar resultat till stacken -130
-line 4 : 126
-Stack is full. i push 
-Stack is full. i push 
-Stack is full. i push 
-peek innan vi pushar resultat till stacken 5
-res innan vi pushar resultat till stacken 13
-peek efter vi pushat resultatet till stacken 13
-res innan vi pushar resultat till stacken 13
-peek innan vi pushar resultat till stacken 4
-res innan vi pushar resultat till stacken 18
-peek efter vi pushat resultatet till stacken 18
-res innan vi pushar resultat till stacken 18
-peek innan vi pushar resultat till stacken 3
-res innan vi pushar resultat till stacken 22
-peek efter vi pushat resultatet till stacken 22
-res innan vi pushar resultat till stacken 22
-peek innan vi pushar resultat till stacken 2
-res innan vi pushar resultat till stacken 25
-peek efter vi pushat resultatet till stacken 25
-res innan vi pushar resultat till stacken 25
-peek innan vi pushar resultat till stacken 1
-res innan vi pushar resultat till stacken 27
-peek efter vi pushat resultatet till stacken 27
-res innan vi pushar resultat till stacken 27
-peek innan vi pushar resultat till stacken 8
-res innan vi pushar resultat till stacken 28
-peek efter vi pushat resultatet till stacken 28
-res innan vi pushar resultat till stacken 28
-peek innan vi pushar resultat till stacken 7
-res innan vi pushar resultat till stacken 36
-peek efter vi pushat resultatet till stacken 36
-res innan vi pushar resultat till stacken 36
-peek innan vi pushar resultat till stacken 6
-res innan vi pushar resultat till stacken 43
-peek efter vi pushat resultatet till stacken 43
-res innan vi pushar resultat till stacken 43
-Stack is empty. i peek 
-peek innan vi pushar resultat till stacken -1
-res innan vi pushar resultat till stacken 49
-peek efter vi pushat resultatet till stacken 49
-res innan vi pushar resultat till stacken 49
-line 5 : 49
+vid push av current 0
+vid push av current 2
+vid push av res 2
+vid push av res 3
+vid push av res -1195115008
+vid push av res 32759
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+line 0: 5
+vid push av current 5
+vid push av current 4
+vid push av res 4
+vid push av res 5
+vid push av res -1195115008
+vid push av res 32759
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+line 1: -1
+vid push av current -1
+vid push av current 124
+vid push av res 124
+vid push av res 1000
+vid push av res -1195115008
+vid push av res 32759
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av current 124000
+vid push av res 124000
+vid push av res 36
+vid push av res -1195115008
+vid push av res 32759
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+line 2: 124036
+vid push av current 124036
+vid push av current 6
+vid push av current 6
+vid push av current 6
+vid push av current 6
+vid push av res 6
+vid push av res 7
+vid push av res 8
+vid push av res 8343260
+vid push av res 4
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+line 3: 2085815
+vid push av current 6
+vid push av current 2
+vid push av res 2
+vid push av res 1000
+vid push av res 8
+vid push av res 2085815
+vid push av res 4
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av current 2000
+vid push av current 2000
+vid push av res 2000
+vid push av res 10
+vid push av res 5
+vid push av res 2085815
+vid push av res 4
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 2000
+vid push av res 15
+vid push av res 5
+vid push av res 2085815
+vid push av res 4
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av current 2015
+vid push av current 2015
+vid push av res 2015
+vid push av res 19
+vid push av res 100
+vid push av res 2085815
+vid push av res 4
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av current 2015
+vid push av current 2015
+vid push av res 2015
+vid push av res 1900
+vid push av res 8
+vid push av res 10
+vid push av res 4
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av current 2015
+vid push av res 2015
+vid push av res 1900
+vid push av res 80
+vid push av res 5
+vid push av res 4
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 2015
+vid push av res 1900
+vid push av res 85
+vid push av res 5
+vid push av res 4
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 2015
+vid push av res 1985
+vid push av res 85
+vid push av res 5
+vid push av res 4
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+vid push av res 0
+line 4: 30
+vid push av current 30
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 5
+vid push av res 6
+vid push av res 7
+vid push av res 8
+vid push av res 9
+vid push av res 10
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 5
+vid push av res 6
+vid push av res 7
+vid push av res 8
+vid push av res 19
+vid push av res 10
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 5
+vid push av res 6
+vid push av res 7
+vid push av res 27
+vid push av res 19
+vid push av res 10
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 5
+vid push av res 6
+vid push av res 34
+vid push av res 27
+vid push av res 19
+vid push av res 10
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 5
+vid push av res 40
+vid push av res 34
+vid push av res 27
+vid push av res 19
+vid push av res 10
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 45
+vid push av res 40
+vid push av res 34
+vid push av res 27
+vid push av res 19
+vid push av res 10
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 49
+vid push av res 45
+vid push av res 40
+vid push av res 34
+vid push av res 27
+vid push av res 19
+vid push av res 10
+vid push av res 1
+vid push av res 2
+vid push av res 52
+vid push av res 49
+vid push av res 45
+vid push av res 40
+vid push av res 34
+vid push av res 27
+vid push av res 19
+vid push av res 10
+vid push av res 1
+vid push av res 54
+vid push av res 52
+vid push av res 49
+vid push av res 45
+vid push av res 40
+vid push av res 34
+vid push av res 27
+vid push av res 19
+vid push av res 10
+line 5: 55
+vid push av current 55
+vid push av current 1
+vid push av current 1
 Division med noll 
-line 6 : 1
+line 6: 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
+vid push av current 1
 Stack is full. i push 
-peek innan vi pushar resultat till stacken 4
-res innan vi pushar resultat till stacken 11
-peek efter vi pushat resultatet till stacken 11
-res innan vi pushar resultat till stacken 11
-peek innan vi pushar resultat till stacken 3
-res innan vi pushar resultat till stacken 15
-peek efter vi pushat resultatet till stacken 15
-res innan vi pushar resultat till stacken 15
-peek innan vi pushar resultat till stacken 2
-res innan vi pushar resultat till stacken 18
-peek efter vi pushat resultatet till stacken 18
-res innan vi pushar resultat till stacken 18
-peek innan vi pushar resultat till stacken 1
-res innan vi pushar resultat till stacken 20
-peek efter vi pushat resultatet till stacken 20
-res innan vi pushar resultat till stacken 20
-peek innan vi pushar resultat till stacken 4
-res innan vi pushar resultat till stacken 21
-peek efter vi pushat resultatet till stacken 21
-res innan vi pushar resultat till stacken 21
-peek innan vi pushar resultat till stacken 3
-res innan vi pushar resultat till stacken 25
-peek efter vi pushat resultatet till stacken 25
-res innan vi pushar resultat till stacken 25
-peek innan vi pushar resultat till stacken 2
-res innan vi pushar resultat till stacken 28
-peek efter vi pushat resultatet till stacken 28
-res innan vi pushar resultat till stacken 28
-peek innan vi pushar resultat till stacken 1
-res innan vi pushar resultat till stacken 30
-peek efter vi pushat resultatet till stacken 30
-res innan vi pushar resultat till stacken 30
-Stack is empty. i peek 
-peek innan vi pushar resultat till stacken -1
-res innan vi pushar resultat till stacken 31
-peek efter vi pushat resultatet till stacken 31
-res innan vi pushar resultat till stacken 31
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 5
+vid push av res 6
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 11
+vid push av res 6
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 15
+vid push av res 11
+vid push av res 6
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 1
+vid push av res 2
+vid push av res 18
+vid push av res 15
+vid push av res 11
+vid push av res 6
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 1
+vid push av res 20
+vid push av res 18
+vid push av res 15
+vid push av res 11
+vid push av res 6
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 4
+vid push av res 21
+vid push av res 20
+vid push av res 18
+vid push av res 15
+vid push av res 11
+vid push av res 6
+vid push av res 1
+vid push av res 2
+vid push av res 3
+vid push av res 25
+vid push av res 21
+vid push av res 20
+vid push av res 18
+vid push av res 15
+vid push av res 11
+vid push av res 6
+vid push av res 1
+vid push av res 2
+vid push av res 28
+vid push av res 25
+vid push av res 21
+vid push av res 20
+vid push av res 18
+vid push av res 15
+vid push av res 11
+vid push av res 6
+vid push av res 1
+vid push av res 30
+vid push av res 28
+vid push av res 25
+vid push av res 21
+vid push av res 20
+vid push av res 18
+vid push av res 15
+vid push av res 11
+vid push av res 6
 Stack is empty. i pop 
-Stack is empty. i peek 
-peek innan vi pushar resultat till stacken -1
-res innan vi pushar resultat till stacken 30
-peek efter vi pushat resultatet till stacken 30
-res innan vi pushar resultat till stacken 30
-line 7 : 30
+vid push av res 31
+vid push av res 30
+vid push av res 28
+vid push av res 25
+vid push av res 21
+vid push av res 20
+vid push av res 18
+vid push av res 15
+vid push av res 11
+vid push av res 6
+line 7: 30
+vid push av current 30
 Stack is empty. i pop 
-Stack is empty. i peek 
-peek innan vi pushar resultat till stacken -1
-res innan vi pushar resultat till stacken 0
-peek efter vi pushat resultatet till stacken 0
-res innan vi pushar resultat till stacken 0
-line 8 : 0
+vid push av res 1
+vid push av res 30
+vid push av res 28
+vid push av res 25
+vid push av res 21
+vid push av res 20
+vid push av res 18
+vid push av res 15
+vid push av res 11
+vid push av res 6
+line 8: 0
 något skumt hände
-Stack is empty. 
 Stack is empty. i pop 
-line 9 : -1
+line 9: -1
