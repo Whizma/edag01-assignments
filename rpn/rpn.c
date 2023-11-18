@@ -21,26 +21,32 @@ int main(void) {
     Stack stack;
     initStack(&stack);
 
-    int a, b, c, line, ch;
-    line = 0;
+    int a, b, c, line;
+    int hasCalc;
+    hasCalc = 0;
+    line = 1;
 
     while ((c  = getchar()) != EOF) {
+        // ingen * här
         if (c == ' ') {
             continue;
         }
         else if (isdigit(c)) {
             int current = c - '0';
-            while ((ch = getchar()) != ' ' && isdigit(ch)) {
-                current = current * 10 + (ch - '0');
+            c = getchar();
+            while (isdigit(c)) {
+                current = current * 10 + (c - '0');
+                c = getchar();
             }
-            printf("%c\n", c);
             push(&stack, current);
         }
+        if (c == ' ') {
+            continue;
+        }
         else if (c == '+' || c == '-' || c == '*' || c == '/') {
-                a = pop(&stack);
-                b = pop(&stack);
-                printf("%c\n", c);
-                int res;
+            a = pop(&stack);
+            b = pop(&stack);
+            int res;
             switch(c) {
                 case '+':
                     res = a + b;
@@ -56,21 +62,32 @@ int main(void) {
                         res = b / a;
                     }
                     else {
-                        printf("%s\n", "Division med noll ");
+                        goto error;
                         continue;
                     }
                     break;
         }
             push(&stack, res);
+            hasCalc = 1;
         }
         else if (c == '\n') {
-            printf("line %d%s %d\n", line, ":", pop(&stack));
+            if (stack.top == -1) {
+                printf("line %d : error at \\n\n", line);
+            } else {
+                printf("line %d : %d\n", line, pop(&stack));
+            }
             line++;
             while (stack.top != -1) {
                 pop(&stack);
             }
-        } else {
-            printf("%s\n", "något skumt hände");
+        } 
+        else {
+            error:
+            printf("line %d : error at %c \n", line, c);
+            line++;
+            while (stack.top != -1) {
+                pop(&stack);
+            }
         }
     }
     return 0;
@@ -79,9 +96,6 @@ int main(void) {
 // Initialize stack
 void initStack(Stack* stack) {
     stack->top = -1;
-     for (int i = 0; i < N; i++) {
-        stack->data[i] = 0; // Initialize all elements to zero
-    }
 }
 
 // Push value onto stack
