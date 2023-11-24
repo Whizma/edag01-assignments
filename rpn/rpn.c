@@ -22,12 +22,9 @@ int main(void) {
     initStack(&stack);
 
     int a, b, c, line;
-    int hasCalc;
-    hasCalc = 0;
     line = 1;
 
     while ((c  = getchar()) != EOF) {
-        // ingen * här
         if (c == ' ') {
             continue;
         }
@@ -38,12 +35,20 @@ int main(void) {
                 current = current * 10 + (c - '0');
                 c = getchar();
             }
-            push(&stack, current);
+            printf("%d stack size \n",stack.top);
+            if (stack.top < 9) {
+                push(&stack, current);
+            }
+            else {
+                printf("borde vara här vi fuckar stacken\n");
+                printf("current: %d\n", current);
+                goto error;
+            }
         }
         if (c == ' ') {
             continue;
         }
-        else if (c == '+' || c == '-' || c == '*' || c == '/') {
+        else if (c == '+' || c == '-' || c == '*' || c == '/' && stack.top > 0) {
             a = pop(&stack);
             b = pop(&stack);
             int res;
@@ -68,17 +73,21 @@ int main(void) {
                     break;
         }
             push(&stack, res);
-            hasCalc = 1;
         }
         else if (c == '\n') {
-            if (stack.top == -1) {
-                printf("line %d : error at \\n\n", line);
-            } else {
+            if (stack.top == 0) {
                 printf("line %d : %d\n", line, pop(&stack));
+                line++;
+                while (stack.top != -1) {
+                    pop(&stack);
+                }
             }
-            line++;
-            while (stack.top != -1) {
-                pop(&stack);
+            else {
+                printf("line %d : error at %s \n", line, "\\n");
+                line++;
+                while (stack.top != -1) {
+                    pop(&stack);
+                }
             }
         } 
         else {
