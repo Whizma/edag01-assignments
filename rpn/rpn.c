@@ -11,10 +11,6 @@ struct Stack {
     int top;
 };
 
-// Function prototypes
-void initStack(Stack* stack);
-void push(Stack* stack, int value);
-
 int main(void) {
     Stack stack;
     stack.top = -1;
@@ -34,7 +30,8 @@ int main(void) {
                 c = getchar();
             }
             if (stack.top < 9) {
-                push(&stack, current);
+                stack.top++;
+                stack.data[stack.top] = current;
             }
             else {
                 c = current + '0';
@@ -56,20 +53,24 @@ int main(void) {
             switch(c) {
                 case '+':
                     res = a + b;
-                    push(&stack, res);
+                    stack.top++;
+                    stack.data[stack.top] = res;
                     break;
                 case '-':
                     res = b - a;
-                    push(&stack, res);
+                    stack.top++;
+                    stack.data[stack.top] = res;
                     break;
                 case '*':
                     res = a * b;
-                    push(&stack, res);
+                    stack.top++;
+                    stack.data[stack.top] = res;
                     break;
                 case '/':
                     if (a != 0) {
                         res = b / a;
-                        push(&stack, res);
+                        stack.top++;
+                        stack.data[stack.top] = res;
                     }
                     else {
                         goto error;
@@ -106,10 +107,4 @@ int main(void) {
         }
     }
     return 0;
-}
-
-// Push value onto stack
-void push(Stack* stack, int value) {
-    stack->top++;
-    stack->data[stack->top] = value;
 }
