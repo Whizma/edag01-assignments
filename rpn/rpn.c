@@ -19,10 +19,7 @@ int main(void) {
     line = 1;
 
     while ((c  = getchar()) != EOF) {
-        if (c == ' ') {
-            continue;
-        }
-        else if (isdigit(c)) {
+        if (isdigit(c)) {
             int current = c - '0';
             c = getchar();
             while (isdigit(c)) {
@@ -42,41 +39,27 @@ int main(void) {
             continue;
         }
         else if ((c == '+' || c == '-' || c == '*' || c == '/') && stack.top > 0) {
-            if (stack.top <= 0) {
-                goto error;
-            }
-            a = stack.data[stack.top];
-            stack.top--;
-            b = stack.data[stack.top];
-            stack.top--;
-            int res;
+            a = stack.data[stack.top--];
+            b = stack.data[stack.top--];
             switch(c) {
                 case '+':
-                    res = a + b;
-                    stack.top++;
-                    stack.data[stack.top] = res;
+                    stack.data[++stack.top] = a + b;
                     break;
                 case '-':
-                    res = b - a;
-                    stack.top++;
-                    stack.data[stack.top] = res;
+                    stack.data[++stack.top] = b - a;
                     break;
                 case '*':
-                    res = a * b;
-                    stack.top++;
-                    stack.data[stack.top] = res;
+                    stack.data[++stack.top] = b * a;
                     break;
                 case '/':
                     if (a != 0) {
-                        res = b / a;
-                        stack.top++;
-                        stack.data[stack.top] = res;
+                        stack.data[++stack.top] = b / a;
                     }
                     else {
                         goto error;
                         continue;
                     }
-        }
+            }
         }
         else if (c == '\n') {
             if (stack.top == 0) {
