@@ -5,15 +5,13 @@
 #include <stdlib.h>
 
 // Stack data structure
-typedef struct Stack Stack;
-struct Stack {
-    int data[N];
-    int top;
-};
+
+
 
 int main(void) {
-    Stack stack;
-    stack.top = -1;
+    int data[N];
+    int top;
+    top = -1;
 
     int a, b, c, line;
     line = 1;
@@ -26,9 +24,9 @@ int main(void) {
                 current = current * 10 + (c - '0');
                 c = getchar();
             }
-            if (stack.top < 9) {
-                stack.top++;
-                stack.data[stack.top] = current;
+            if (top < 9) {
+                top++;
+                data[top] = current;
             }
             else {
                 c = current + '0';
@@ -38,22 +36,22 @@ int main(void) {
         if (c == ' ') {
             continue;
         }
-        else if ((c == '+' || c == '-' || c == '*' || c == '/') && stack.top > 0) {
-            a = stack.data[stack.top--];
-            b = stack.data[stack.top--];
+        else if ((c == '+' || c == '-' || c == '*' || c == '/') && top > 0) {
+            a = data[top--];
+            b = data[top--];
             switch(c) {
                 case '+':
-                    stack.data[++stack.top] = a + b;
+                    data[++top] = a + b;
                     break;
                 case '-':
-                    stack.data[++stack.top] = b - a;
+                    data[++top] = b - a;
                     break;
                 case '*':
-                    stack.data[++stack.top] = b * a;
+                    data[++top] = b * a;
                     break;
                 case '/':
                     if (a != 0) {
-                        stack.data[++stack.top] = b / a;
+                        data[++top] = b / a;
                     }
                     else {
                         goto error;
@@ -62,18 +60,18 @@ int main(void) {
             }
         }
         else if (c == '\n') {
-            if (stack.top == 0) {
-                printf("line %d: %d\n", line, stack.data[stack.top]);
+            if (top == 0) {
+                printf("line %d: %d\n", line, data[top]);
                 line++;
-                while (stack.top != -1) {
-                    stack.top--;
+                while (top != -1) {
+                    top--;
                 }
             }
             else {
                 printf("line %d: error at %s\n", line, "\\n");
                 line++;
-                while (stack.top != -1) {
-                    stack.top--;
+                while (top != -1) {
+                    top--;
                 }
             }
         } 
@@ -81,8 +79,8 @@ int main(void) {
             error:
             printf("line %d: error at %c\n", line, c);
             line++;
-            while (stack.top != -1) {
-                stack.top--;
+            while (top != -1) {
+                top--;
             }
             while ((c = getchar()) != '\n') {
 
