@@ -75,9 +75,9 @@ void pivot(simplex_t *s, int row, int col)
   s->var[n + row] = t;
 
   double inv_row_col = 1.0 / a[row][col];
-  //  b[row] * inv_row_col;
+  double b_mul = b[row] * inv_row_col;
 
-  s->y = s->y + c[col] * b[row] * inv_row_col;
+  s->y = s->y + c[col] * b_mul;
 
   for (i = 0; i < n; i++)
   {
@@ -92,19 +92,20 @@ void pivot(simplex_t *s, int row, int col)
   {
     if (i != row)
     {
-      b[i] = b[i] - a[i][col] * b[row] * inv_row_col;;
+      b[i] = b[i] - a[i][col] * b_mul;
     }
   }
 
-  for (i = 0; i < m; i++)
+  for (j = 0; j < n; j++)
   {
-    if (i != row)
+    if (j != col)
     {
-      for (j = 0; j < n; j++)
+      double val = a[row][j] * inv_row_col;
+      for (i = 0; i < m; i++)
       {
-        if (j != col)
+        if (i != row)
         {
-          a[i][j] = a[i][j] - a[i][col] * a[row][j] * inv_row_col;
+          a[i][j] -= a[i][col] * val;
         }
       }
     }

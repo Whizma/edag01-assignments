@@ -1,18 +1,11 @@
 #define N 10
 #include <stdio.h>
 #include <ctype.h>
-#include <stdio.h>
-#include <stdlib.h>
-
-// Stack data structure
-
-
 
 int main(void) {
     int data[N];
     int top;
     top = -1;
-
     int a, b, c, line;
     line = 1;
 
@@ -55,36 +48,27 @@ int main(void) {
                     }
                     else {
                         goto error;
-                        continue;
                     }
             }
         }
         else if (c == '\n') {
             if (top == 0) {
                 printf("line %d: %d\n", line, data[top]);
-                line++;
-                while (top != -1) {
-                    top--;
-                }
             }
             else {
                 printf("line %d: error at %s\n", line, "\\n");
-                line++;
-                while (top != -1) {
-                    top--;
-                }
             }
+            top = -1;
+            line++;
         } 
         else {
             error:
             printf("line %d: error at %c\n", line, c);
-            line++;
-            while (top != -1) {
-                top--;
-            }
+            top = -1;
             while ((c = getchar()) != '\n') {
 
             }
+            line++;
         }
     }
     return 0;
