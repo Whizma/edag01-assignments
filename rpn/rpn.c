@@ -6,7 +6,8 @@ int main(void) {
     int data[N];
     int top;
     top = -1;
-    int a, b, c, line;
+    int a, b, c; 
+    unsigned int line;
     line = 1;
 
     while ((c  = getchar()) != EOF) {
@@ -32,44 +33,45 @@ int main(void) {
         else if ((c == '+' || c == '-' || c == '*' || c == '/') && top > 0) {
             a = data[top--];
             b = data[top--];
+            ++top;
             switch(c) {
                 case '+':
-                    data[++top] = a + b;
+                    data[top] = a + b;
                     break;
                 case '-':
-                    data[++top] = b - a;
+                    data[top] = b - a;
                     break;
                 case '*':
-                    data[++top] = b * a;
+                    data[top] = b * a;
                     break;
                 case '/':
                     if (a != 0) {
-                        data[++top] = b / a;
+                        data[top] = b / a;
                     }
                     else {
+                        top--;
                         goto error;
                     }
             }
         }
         else if (c == '\n') {
             if (top == 0) {
-                printf("line %d: %d\n", line, data[top]);
+                printf("line %u: %d\n", line, data[top]);
             }
             else {
-                printf("line %d: error at %s\n", line, "\\n");
+                printf("line %u: error at %s\n", line, "\\n");
             }
             top = -1;
             line++;
         } 
         else {
             error:
-            printf("line %d: error at %c\n", line, c);
+            printf("line %u: error at %c\n", line, c);
             top = -1;
             while ((c = getchar()) != '\n') {
-
+                
             }
             line++;
         }
     }
-    return 0;
 }

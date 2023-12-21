@@ -1,5 +1,5 @@
 CC	= cc
-CFLAGS	= -std=c11 -pedantic -Wall -Werror -g -O3 -funsigned-char
+CFLAGS	= -std=c11 -pedantic -Wall -Werror -g -O3 -funsigned-char -fsave-optimization-record
 OUT	= a.out
 FILE	= rpn
 
